@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<HTML>
+ <HEAD>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <TITLE> Go jQueryMobile </TITLE>
+
+ <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+
+ </HEAD>
+
+ <BODY>
+
+	<div id="home" data-role="page">
+		<div data-role="header">
+			<h1>jQuery Mobile 시작</h1>
+		</div>
+
+		<div data-role="content">
+			<a href="about.html" data-role="button">About jQueryMobile</a>
+			<br/>
+			<br/>
+			<ul data-role="listview" data-inset="true"
+				data-split-icon="star" data-split-theme="c">
+				<li data-role="list-divider">Apple</li>
+				<li>
+					<h1><a href="#">Google</a></h1>
+					<p>Google inc</p>
+					<a href="http://www.google.com">Google</a>
+				</li>
+				<li>
+					<a href="http://www.google.com">LG</a>
+					<span class="ui-li-count">12</span>
+					<p class="ui-li-aside">unread</p>
+				</li>
+				<li>
+					<a href="#SecondPage"data-transition="pop">gogo</a>
+				</li>
+			</ul>
+			<div id="SecondPage"  data-rel="dialog" data-role="page">
+		
+		<div>이거슨 팝!</div>
+		</div>
+			
+		</div>
+		
+		
+		
+	</div>
+
+ </BODY>
+</HTML>
